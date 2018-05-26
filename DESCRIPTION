@@ -1,0 +1,13 @@
+Package: sequila
+Type: Package
+Title: SeQuiLa sparklyr extension
+Version: 0.1.0
+Author: biodatageeks.org
+Maintainer: Marek Wiewiórka <marek.wiewiorka@gmail.com>
+Description: SeQuila ("http://biodatageeks.org/sequila/") R interface
+Depends: R (>= 3.3.2)
+Imports:
+    sparklyr
+License: Apache License
+Encoding: UTF-8
+LazyData: true
