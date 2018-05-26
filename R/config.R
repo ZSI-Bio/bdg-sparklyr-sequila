@@ -9,4 +9,7 @@ sequilaEnv$config$sparklyr.shell.repositories <-"https://zsibio.ii.pw.edu.pl/nex
   library(sparklyr)
   spark_install(version=sequilaEnv$sparkVersion)
   packageStartupMessage(paste("SeQuiLa-sparklyr",sequilaEnv$version, sep=" "))
+  #cleanup
+  system("rm -rf ~/.ivy2/cache/org.biodatageeks/bdg-sequila_2.11/*")
+  system("rm -rf ~/.ivy2/jars/org.biodatageeks_bdg-sequila_2.11*")
 }
