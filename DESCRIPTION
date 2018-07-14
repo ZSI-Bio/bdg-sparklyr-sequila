@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: biodatageeks.org
 Maintainer: Marek Wiewiorka <marek.wiewiorka@gmail.com>
 Description: sparklyr-sequila ("http://biodatageeks.org/sequila/") is an R interface to bdg-sequila Apache Spark package. 
-Depends: R (>= 3.3.2)
+Depends: R (>= 3.3.2), sparklyr
 Imports:
     sparklyr
 License: Apache License

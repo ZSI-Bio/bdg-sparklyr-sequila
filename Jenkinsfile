@@ -106,7 +106,7 @@ node {
  }
  catch (e){currentBuild.result="FAIL"}
  stage('Notify'){
-    junit '**/target/test-reports/*.xml'
+
     buildColor = currentBuild.result == null ? "good" : "danger"
     buildStatus = currentBuild.result == null ? "SUCCESS:clap:" : currentBuild.result+":cry:"
 
