@@ -96,7 +96,8 @@ node {
            stage('Test R package') {
 
                      echo 'Test R package....'
-                     sh 'R CMD check .'
+
+                     sh 'export JAVA_HOME=/usr/lib/jvm/java-8-oracle && R CMD check .'
 
                      }
 
