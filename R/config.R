@@ -1,5 +1,5 @@
 sequilaEnv <- new.env()
-sequilaEnv$version <- "0.4-SNAPSHOT"
+sequilaEnv$version <- "0.4"
 sequilaEnv$sparkVersion <- "2.2.0"
 sequilaEnv$config <- sparklyr::spark_config()
 sequilaEnv$config$sparklyr.defaultPackages <- paste("org.biodatageeks","bdg-sequila_2.11",sequilaEnv$version,sep=":")
